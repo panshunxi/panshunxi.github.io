@@ -19,18 +19,17 @@
   <meta name="author" content="Pan Shunxi">
   <meta name="keywords" content="">
   
-    <meta property="og:type" content="article">
+    <meta name="description" content="这是自定义摘要（会覆盖默认摘要）">
+<meta property="og:type" content="article">
 <meta property="og:title" content="测试">
 <meta property="og:url" content="http://example.com/2025/07/29/%E6%B5%8B%E8%AF%95/index.html">
 <meta property="og:site_name" content="个人博客">
+<meta property="og:description" content="这是自定义摘要（会覆盖默认摘要）">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://example.com/2025/07/29/%E6%B5%8B%E8%AF%95/image-20250729181323187.png">
-<meta property="og:image" content="http://example.com/2025/07/29/%E6%B5%8B%E8%AF%95/image-20250729181325856.png">
 <meta property="article:published_time" content="2025-07-29T10:13:01.000Z">
-<meta property="article:modified_time" content="2025-07-29T10:14:05.369Z">
+<meta property="article:modified_time" content="2025-07-29T10:30:55.146Z">
 <meta property="article:author" content="Pan Shunxi">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://example.com/2025/07/29/%E6%B5%8B%E8%AF%95/image-20250729181323187.png">
   
   
   
@@ -262,13 +261,22 @@
             <h1 id="seo-header">测试</h1>
             
             
-              <div class="markdown-body">
-                
-                <p><img src="/2025/07/29/%E6%B5%8B%E8%AF%95/image-20250729181323187.png" srcset="/img/loading.gif" lazyload alt="image-20250729181323187"></p>
-<p><img src="/2025/07/29/%E6%B5%8B%E8%AF%95/image-20250729181325856.png" srcset="/img/loading.gif" lazyload alt="image-20250729181325856"></p>
+              
+              <div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="461cf0649fad73fca8ea0768886f07986bdffa32ede2ccfe126421b746a32b5e">4630436162ade97ba2718b7d0c4b3b63dc7090183d7540ee162ecb0e10eb24144e90a03be8695c9dcab3baa58fed0a2e0b1fcd43b2a3c210810b7c30ee0d26cf2aa00e7d2b5f1a8265b397f142b68a47646a2e4cb068e6af193b1dc3e93301b1bf58e08a03775ff2d11a323b90e980da5f2f6265adf8ec32bd084ca59e4e6ef6a8b000efbe315256af0afbcb9fcec6c50e7cc37d8d2e9011dc4027039c1841100999a3c62a24d72a1d393323a34acee2ca4535133e80b033b68c57f8b04d315425d7b87ca09a28cece580550e3c75b98a658dd070b0e1c1821c16ef2709c3aaa2b6bc3ef13081c14c2fabf80fb6d1a50dd10d1e0abd15e95d70e0530e15599c1</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输入密码（会覆盖默认提示）</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">
+              
 
-                
-              </div>
+              
             
             <hr/>
             <div>
@@ -327,6 +335,12 @@
                 <div class="post-prevnext my-3">
                   <article class="post-prev col-6">
                     
+                    
+                      <a href="/2025/07/29/%E5%8A%A0%E5%AF%86/" title="加密">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">加密</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
                     
                   </article>
                   <article class="post-next col-6">
@@ -488,6 +502,23 @@
   
 
 
+
+
+  
+  <script defer>
+    if (document.getElementById('hbePass') || document.querySelector('hbe-prefix')) {
+      Fluid.utils.waitElementLoaded('hbe-prefix', function() {
+        var hbePrefix = document.querySelector('hbe-prefix');
+        hbePrefix.parentElement.classList.add('markdown-body');
+        Fluid.utils.retry(function() {
+          if (Fluid.boot && Fluid.boot.refresh) {
+            Fluid.boot.refresh();
+            return true;
+          }
+        }, 100, 10);
+      })
+    }
+  </script>
 
 
   
